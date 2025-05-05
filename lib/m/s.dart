@@ -1,0 +1,1 @@
+class S{final String i,n,u,f,c;final List<String>t;const S({required this.i,required this.n,required this.u,required this.f,required this.c,required this.t});factory S.fromJson(Map<String,dynamic>j)=>S(i:j['stationuuid']??'',n:j['name']??'',u:j['url_resolved']??'',f:j['favicon']??'',c:j['countrycode']??'',t:(j['tags']??'').toString().split(','));}

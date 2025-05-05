@@ -1,0 +1,10 @@
+@override
+Widget build(BuildContext context) => Scaffold(
+  appBar: AppBar(/* ... */),
+  body: SafeArea(
+    child: ListView.builder(
+      itemCount: stations.length,
+      itemBuilder: (context, index) => ListTile(/* ... */),
+    ),
+  ),
+);
