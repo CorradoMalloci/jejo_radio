@@ -1,5 +1,151 @@
 # Je Jo Radio
 
+[English](#english) | [Italiano](#italiano)
+
+# English
+
+A modern streaming radio application developed with Flutter.
+
+## Main Features
+
+- 🎵 Radio streaming with background playback support
+- 🌍 Search and filter by country and region (special support for Italy)
+- ⭐ Favorites management with persistence
+- 🎨 Theme support:
+  - Light theme
+  - Dark theme
+  - System theme synchronization
+- 📱 Material 3 design with modern interface
+- 🔄 Infinite station loading
+- 🎧 Persistent player with advanced controls
+
+## System Requirements
+
+### For Users
+- Android 5.0 (API 21) or higher
+- Storage space: ~12MB
+- Internet connection for streaming
+
+### For Developers
+- Flutter SDK ≥3.0.0
+- Dart SDK ≥3.0.0
+- Android Studio / VS Code with Flutter plugin
+- JDK ≥11
+
+## Installation
+
+### Android Users
+Choose the appropriate APK for your device:
+
+- `JeJoRadio-beta2-arm64.apk`: For modern devices (Android 5.0+)
+- `JeJoRadio-beta2-armv7.apk`: For older devices
+- `JeJoRadio-beta2-x64.apk`: For x86_64 emulators
+
+### Developers
+```bash
+# Clone the repository
+git clone https://github.com/CorradoMalloci/jejo_radio.git
+
+# Navigate to directory
+cd jejo_radio
+
+# Install dependencies
+flutter pub get
+
+# Run in debug mode
+flutter run
+
+# Create release build
+flutter build apk --release --split-per-abi
+```
+
+## Technologies Used
+
+- **Flutter**: Cross-platform UI framework
+- **just_audio**: Audio streaming engine
+- **just_audio_background**: Background playback support
+- **shared_preferences**: Local data persistence
+- **provider**: State management
+- **cached_network_image**: Image caching
+- **google_fonts**: Montserrat and Inter fonts
+- **http**: Network requests
+
+## Project Structure
+
+```
+lib/
+├── models/         # Data models
+├── screens/        # App screens
+├── services/       # Services (API, audio, favorites)
+├── theme/          # Theme configuration
+└── widgets/        # Reusable widgets
+```
+
+## Detailed Features
+
+### Radio Management
+- Worldwide radio station streaming
+- Country and region filtering
+- Station text search
+- Favorites management
+- Advanced playback controls
+
+### UI/UX
+- Material 3 design
+- Customizable themes
+- Fluid animations
+- Responsive layout
+- Visual action feedback
+
+### Performance
+- Lazy station loading
+- Image caching
+- Memory consumption optimizations
+- Efficient streaming management
+
+## Versions
+
+### Beta 2 (0.2.0-beta.2+2) - May 2024
+- Added theme selector (System/Light/Dark)
+- Improved contrast and readability
+- Performance optimizations
+- Added advanced player controls
+- System theme support
+
+### Beta 1 (0.1.0-beta.1) - April 2024
+- First public release
+- Basic streaming functionality
+- Initial UI/UX
+- Favorites support
+
+## Roadmap
+- [ ] Add audio equalizer
+- [ ] Custom playlist support
+- [ ] Sleep timer
+- [ ] Lock screen widget
+- [ ] Listening statistics
+- [ ] Multi-language support
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+Copyright © 2024 Corrado Malloci. All rights reserved.
+
+## Contact
+- Author: Corrado Malloci
+- Email: ifenicotteri@gmail.com
+- GitHub: [CorradoMalloci](https://github.com/CorradoMalloci)
+
+## Acknowledgments
+- Radio Browser API for the radio station database
+- Flutter team for the framework
+- All library contributors
+
+---
+
+# Italiano
+
 Una moderna applicazione per l'ascolto di radio in streaming, sviluppata con Flutter.
 
 ## Caratteristiche Principali
